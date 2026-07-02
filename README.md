@@ -24,6 +24,7 @@
 - **Οθόνη/Mock-up**: index.html
   <img width="1852" height="991" alt="Screenshot 1" src="https://github.com/user-attachments/assets/a934678e-c55f-4178-b2ac-bb91df1abf0a" />
 
+
 >Λειτουργία 2: Εγγραφή χρήστη (Sign Up)
 - **Περιγραφή**: Η εφαρμογή επιτρέπει σε νέους χρήστες να δημιουργήσουν λογαριασμό ώστε να αποκτήσουν πρόσβαση στις λειτουργίες του συστήματος, όπως η δημιουργία και διαχείριση κρατήσεων.
 - **Είσοδος χρήστη**:  
@@ -38,6 +39,7 @@
 - **Οθόνη/Mock-up**: signup.html
   <img width="1883" height="989" alt="Screenshot 2" src="https://github.com/user-attachments/assets/e19e5fae-4407-4426-9057-ffc9c82f1ceb" />
 
+
 >Λειτουργία 3: Είσοδος χρήστη (Login)
 - **Περιγραφή**: Η εφαρμογή επιτρέπει στον χρήστη να εισέλθει στο σύστημα χρησιμοποιώντας τα προσωπικά του στοιχεία (username και password), ώστε να αποκτήσει πρόσβαση σε λειτουργίες όπως η προβολή και διαχείριση των κρατήσεών του. 
 - **Είσοδος χρήστη**:  
@@ -50,6 +52,7 @@ POST /login/ (υποβολή στοιχείων σύνδεσης)
 - **Οθόνη/Mock-up**: login.html
   <img width="1852" height="989" alt="Screenshot 3" src="https://github.com/user-attachments/assets/156f83d9-dc82-4589-a526-697927fcb09a" />
 
+
 >Λειτουργία 4: Αποσύνδεση χρήστη (Logout)
 - **Περιγραφή**: Η εφαρμογή επιτρέπει στον συνδεδεμένο χρήστη να αποσυνδεθεί από το σύστημα και να τερματίσει τη συνεδρία του.
 - **Είσοδος χρήστη**:
@@ -58,6 +61,7 @@ POST /login/ (υποβολή στοιχείων σύνδεσης)
 - **HTTP Method/URL**: POST /logout/
 - **Οθόνη/Mock-up**: Δεν απαιτείται ξεχωριστή οθόνη
   <img width="1855" height="997" alt="Screenshot 4" src="https://github.com/user-attachments/assets/ab4a56ca-7036-4c65-a890-b04c2f476015" />
+
 
 >Λειτουργία 5: Προβολή προφίλ χρήστη
 - **Περιγραφή**:
@@ -70,6 +74,7 @@ POST /login/ (υποβολή στοιχείων σύνδεσης)
 - **HTTP Method/URL**: GET /profile/
 - **Οθόνη/Mock-up**: profile.html
   <img width="1873" height="983" alt="Screenshot 5" src="https://github.com/user-attachments/assets/9bfde664-dc9b-4346-a3da-a1e4f9f303c6" />
+
 
 >Λειτουργία 6: Προβολή δωματίων
 - **Περιγραφή**: Η εφαρμογή εμφανίζει στο χρήστη όλα τα διαθέσιμα δωμάτια του ξενοδοχείου. 
@@ -84,6 +89,7 @@ POST /login/ (υποβολή στοιχείων σύνδεσης)
 - **Οθόνη/Mock-up**: rooms_list.html
   <img width="1897" height="981" alt="Screenshot 6" src="https://github.com/user-attachments/assets/72b559f4-4c84-4b02-80b1-73619126d971" />
 
+
 >Λειτουργία 7: Αναζήτηση δωματίων με ημερομηνίες
 - **Περιγραφή**: Ο χρήστης επιλέγει ημερομηνίες και βλέπει διαθέσιμα δωμάτια. 
 - **Είσοδος χρήστη**: 
@@ -93,6 +99,7 @@ POST /login/ (υποβολή στοιχείων σύνδεσης)
 - **HTTP Method/URL**: GET /rooms_list/?arrival=YYYY-MM-DD&departure=YYYY-MM-DD 
 - **Οθόνη/Mock-up**: rooms_list.html
   <img width="1897" height="986" alt="Screenshot 7" src="https://github.com/user-attachments/assets/583ac4ca-8ebd-4089-b076-84e5f63023a6" />
+
 
 >Λειτουργία 8: Φιλτράρισμα δωματίων
 - **Περιγραφή**: Η εφαρμογή επιτρέπει στον χρήστη να φιλτράρει τα διαθέσιμα δωμάτια με βάση χαρακτηριστικά όπως τύπο δωματίου ή εύρος τιμής.
@@ -105,6 +112,7 @@ GET /rooms_list/?room_type=<room_type>&max_price=<max_price>
 - **Οθόνη/Mock-up**: rooms_list.html
   <img width="1897" height="981" alt="Screenshot 8" src="https://github.com/user-attachments/assets/48744966-a5dd-44c5-ac1e-0b5e63f74d6f" />
 
+
 >Λειτουργία 9: Προβολή λεπτομερειών δωματίου
 - **Περιγραφή**: Εμφανίζει στο χρήστη αναλυτικές πληροφορίες για ένα δωμάτιο. 
 - **Είσοδος χρήστη**: Ο χρήστης επιλέγει δωμάτιο 
@@ -113,6 +121,7 @@ GET /rooms_list/?room_type=<room_type>&max_price=<max_price>
 - **HTTP Method/URL**: GET /room/\<int:room_id>\/ 
 - **Οθόνη/Mock-up**: room_detail.html
   <img width="1902" height="991" alt="Screenshot 9" src="https://github.com/user-attachments/assets/e41e0a26-041c-49bc-b335-2133d2239a68" />
+
 
 >Λειτουργία 10: Δημιουργία κράτησης
 - **Περιγραφή**: Ο χρήστης πρέπει να είναι συνδεδεμένος. Αφού επιλέξει δωμάτιο και ημερομηνίες από την αναζήτηση, μεταφέρεται στη φόρμα ολοκλήρωσης της κράτησης. 
@@ -124,6 +133,7 @@ GET /rooms_list/?room_type=<room_type>&max_price=<max_price>
 - **Οθόνη/Mock-up**: booking_form.html
   <img width="1878" height="986" alt="Screenshot 10" src="https://github.com/user-attachments/assets/369122b8-5884-45a4-b2c6-d7dd396ab970" />
 
+
 >Λειτουργία 11: Προβολή κρατήσεων χρήστη
 - **Περιγραφή**: Ο χρήστης βλέπει τις κρατήσεις του. 
 - **Είσοδος χρήστη**: Ο χρήστης πρέπει να είναι συνδεδεμένος για να δει το προφιλ του "My Profile", στο οποίο φαίνονται οι κρατήσεις του.  
@@ -131,6 +141,7 @@ GET /rooms_list/?room_type=<room_type>&max_price=<max_price>
 - **HTTP Method/URL**: GET /profile/ 
 - **Οθόνη/Mock-up**: profile.html
   <img width="1881" height="983" alt="Screenshot 11" src="https://github.com/user-attachments/assets/7c303b7e-4da0-4d26-a2a3-c4af5d2d5071" />
+
 
 > Λειτουργία 12: Ακύρωση κράτησης
 - **Περιγραφή**: Ο χρήστης ακυρώνει κράτηση που έχει πραγματοποιήσει
@@ -140,6 +151,7 @@ GET /rooms_list/?room_type=<room_type>&max_price=<max_price>
 - **HTTP Method/URL**: POST /booking/cancel/\<int:booking_id>\/
 -  **Οθόνη/Mock-up**: profile.html
   <img width="1899" height="983" alt="Screenshot 12" src="https://github.com/user-attachments/assets/34f6e09a-0608-414d-8d5f-cf4095ac23af" />
+
 
 > Λειτουργία 13: Προβολή λεπτομερειών ξενοδοχείου (About us) 
 - **Περιγραφή**: Η εφαρμογή παρέχει πληροφορίες σχετικά με την ιστορία, τις εγκαταστάσεις και τις παροχές του ξενοδοχείου, βοηθώντας τον χρήστη να γνωρίσει το κατάλυμα.
