@@ -187,5 +187,3 @@ GET /rooms_list/?room_type=<room_type>&max_price=<max_price>
 Σχήμα της ΒΔ (Entity-Relationship model) φτιαγμένο στο DBeaver
 
 Σημείωση: Για τον Πίνακα 'User' δεν δημιουργήσαμε κλάση class User στα models, καθώς ο πίνακας δημιουργείται αυτόματα από το Django. Παρ'όλα αυτά θα μπορούσαμε. 
-
-# d. 
